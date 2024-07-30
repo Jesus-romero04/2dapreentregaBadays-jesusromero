@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+    content="En Badays, encuentras remeras y sudaderas  que permiten que los demás vean tu lado oscuro y genial, incluso si no estás presente. Nuestra colección está diseñada  para inspirar y acompañar al SER a expresarse con libertad. Lleva lo que sientes más allá y exprésate a través del arte y el estilo. Explora nuestras ofertas exclusivas y redefine tu guardarropa hoy mismo.">
+  <meta name="keywords"
+    content=" HTML, JS, META, Java, JavaScript, SASS,sudaderas, remeras, ropa casual, moda urbana, Badays, sudaderas de moda, remeras estilosas, ropa para hombre, ropa para mujer, prendas confortables, tendencias en moda, ropa de calidad">
     <!--Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,8 +19,10 @@
 
     <!-- icon-->
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <title>Badays Shop</title>
+    <title>Home - Badays Shop</title>
 </head>
 <body>
     <header class="navbar-badays">
@@ -47,57 +53,57 @@
               </div>
             </div>
           </nav>
-          <div id="carouselE1 carouselmedia" class="carousel slide" data-bs-ride="carousel">
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
 
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselE1"
+                <button type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide-to="0" class="active" aria-current="true"
                 aria-label="Slide 1"
                 ></button>
-                <button type="button" data-bs-target="#carouselE1"
+                <button type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide-to="1" aria-current="true"
                 aria-label="Slide 2"
                 ></button>
-                <button type="button" data-bs-target="#carouselE1"
+                <button type="button" data-bs-target="#carouselExampleIndicators"
                 data-bs-slide-to="2" aria-current="true"
                 aria-label="Slide 3"
                 ></button>
             </div>
-            <div id="carouselexample" class="carousel slide">
+
               <div class="carousel-inner">
                 <div class="carousel-item active d-item">
-                  <img src="./assets/carousel1.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
+                  <img src="./assets/carousel1.jpg" class="d-block w-100 d-img" alt="...">
+                  <div class="carousel-caption top-0 mt-4">
                     <p class="mt-5 fs-3 text-uppercase">
                       Bienvenidos a 
                     </p>
-                    <h5 class="display-1 fw-bolder text-capitalize">Badays</h5>
+                    <h1 class="display-1 fw-bolder text-capitalize">Badays</h1>
                   </div>
                 </div>
                 <div class="carousel-item d-item">
-                  <img src="./assets/carousel2.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
+                  <img src="./assets/carousel2.jpg" class="d-block w-100 d-img" alt="...">
+                  <div class="carousel-caption top-0 mt-4">
                     <p class="mt-5 fs-3 text-uppercase">
                       Badays
                     </p>
-                    <h5 class="display-1 fw-bolder text-capitalize">Nuevos diseños</h5>
+                    <h1 class="display-1 fw-bolder text-capitalize">Nuevos diseños</h1>
                   </div>
                 </div>
                 <div class="carousel-item d-item">
-                  <img src="./assets/carousel3.jpg" class="d-block w-100" alt="...">
-                  <div class="carousel-caption d-none d-md-block">
+                  <img src="./assets/carousel3.jpg" class="d-block w-100 d-img" alt="...">
+                  <div class="carousel-caption top-0 mt-4">
                     <p class="mt-5 fs-3 text-uppercase">
                       Badays
                     </p>
-                    <h5 class="display-1 fw-bolder text-capitalize">T-shirts and Hoddies 50% OFF</h5>
+                    <h1 class="display-1 fw-bolder text-capitalize">T-shirts and Hoddies 50% OFF</h1>
                   </div>
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -107,31 +113,40 @@
     </header>
  <main>
       <section class="nuevos-disenos-tshirts">
-        <div class="card-group w-75">
+        <div data-aos="fade-down"class="card-group w-75">
           <div class="card text-bg-d border-warning">
             <img src="./assets/foto6.png" class="card-img-top" alt="...">
-            <div class="card-body text-bg-dar border-warning">
-              <h5 class="card-title">Nuevo diseño T-Shirt</h5>
-              <p class="card-text">Espero que pises un Lego.
+            <div class="card-body text-bg-d border-warning">
+              <h2 class="card-title card-titulo">Nuevo diseño</h2>
+              <h3 class="card-sub">
+                (T-Shirt)
+              </h3>
+              <p class="card-text card-texto">Espero que pises un Lego.
                 Mira nuestros diseños de camisetas disponibles🔥</p>
             </div>
-            <div class="card-footer text-bg-dar">
+            <div class="card-footer text-bg-d">
             </div>
           </div>
           <div class="card  border-warning">
             <img src="./assets/foto5.png" class="card-img-top" alt="...">
             <div class="card-body text-bg-d border-warning">
-              <h5 class="card-title">Nuevo diseño T-Shirt</h5>
-              <p class="card-text">El cuento de hadas más auténtico de todos los tiempos 😂</p>
+              <h2 class="card-title card-titulo">Nuevo diseño</h2>
+              <h3 class="card-sub">
+                (T-Shirt)
+              </h3>
+              <p class="card-text card-texto ">El cuento de hadas más auténtico de todos los tiempos 😂</p>
             </div>
             <div class="card-footer text-bg-d">
             </div>
           </div>
           <div class="card text-bg-d border-warning">
             <img src="./assets/foto8.png" class="card-img-top" alt="...">
-            <div class="card-body border-warning">
-              <h5 class="card-title">Nuevo diseño T-Shirt</h5>
-              <p class="card-text">Un día haré llorar a las cebollas.
+            <div class="card-body border-warning text-bg-d">
+              <h2 class="card-title card-titulo">Nuevo diseño</h2>
+              <h3 class="card-sub">
+                (T-Shirt)
+              </h3>
+              <p class="card-text card-texto">Un día haré llorar a las cebollas.
                 ¡Nuevo diseño fresco disponible!✨</p>
             </div>
             <div class="card-footer text-bg-d border-warning">
@@ -141,22 +156,29 @@
       </section>
 
       <section class="nuevos-disenos-tshirts">
-        <div class="card-group w-75">
+        
+        <div data-aos="fade-down" class="card-group w-75">
           <div class="card text-bg-d border-warning">
             <img src="./assets/hoddie5.png" class="card-img-top" alt="...">
-            <div class="card-body text-bg-dar border-warning">
-              <h5 class="card-title">Nuevo diseño Hoddie</h5>
-              <p class="card-text">Eres mi mal día. ¡
+            <div class="card-body text-bg-d border-warning">
+              <h2 class="card-title card-titulo">Nuevo diseño</h2>
+              <h3 class="card-sub">
+                (Hoddie)
+              </h3>
+              <p class="card-text card-texto">Eres mi mal día. ¡
                 Nuevo diseño de sudadera disponible! Consigue la tuya ahora✨</p>
             </div>
-            <div class="card-footer text-bg-dar">
+            <div class="card-footer text-bg-d">
             </div>
           </div>
           <div class="card  border-warning">
             <img src="./assets/hoddie6.png" class="card-img-top" alt="...">
             <div class="card-body text-bg-d border-warning">
-              <h5 class="card-title">Nuevo diseño Hoddie</h5>
-              <p class="card-text">Por favor, no me interrumpas mientras te ignoro.
+              <h2 class="card-title card-titulo">Nuevo diseño </h2>
+              <h3 class="card-sub">
+                (Hoddie)
+              </h3>
+              <p class="card-text card-texto">Por favor, no me interrumpas mientras te ignoro.
                 ¡Nuevo diseño de camiseta disponible! Consigue el tuyo ahora✨</p>
             </div>
             <div class="card-footer text-bg-d">
@@ -164,9 +186,12 @@
           </div>
           <div class="card text-bg-d border-warning">
             <img src="./assets/hoddie7.png" class="card-img-top" alt="...">
-            <div class="card-body border-warning">
-              <h5 class="card-title">Nuevo diseño Hoddie</h5>
-              <p class="card-text">Cuanto menos me importa, más feliz soy.
+            <div class="card-body border-warning text-bg-d">
+              <h2 class="card-title card-titulo">Nuevo diseño</h2>
+              <h3 class="card-sub">
+                (Hoddie)
+              </h3>
+              <p class="card-text card-texto">Cuanto menos me importa, más feliz soy.
                 Nuevo diseño y nuevo color disponibles✨</p>
             </div>
             <div class="card-footer text-bg-d border-warning">
@@ -174,6 +199,10 @@
           </div>
         </div>
       </section>
+      <video class="video-badays" autoplay controls muted>
+        <source src="./assets/video badays.mp4" type="video/mp4">
+        Tu  navegador no es compatible con videos mp4
+      </video>
     </main>
 
     <footer class="pie-pagina">
@@ -186,14 +215,13 @@
               </figure>
           </div>
           <div class="box">
-              <h2>SOBRE NOSOTROS</h2>
-              <p>Badays nació con una visión clara y una misión que guía todas nuestras acciones: inspirar y acompañar al SER a expresarse con libertad.</p>
-              <p>Lleva lo que sientes más allá y exprésate a través del arte y el estilo. Nuestros estampados permiten que los demás vean tu lado oscuro y genial, incluso si no estás presente.</p>
-              <p>Todos tenemos días malos. Ilumínalos con los atrevidos diseños que están por llegar.</p>
+            <a href="./html/nosotros.html" class="sobre-nosotross">Sobre nosotros</a>
+            <a href="#" class="politicas-de-devolucion">Politicas de Devolucion</a>
+            <p>badayshop@gmail.com</p>
           </div>
           <div class="box">
-              <h2>SIGUENOS</h2>
-              <p>Contacto: +54 9 12 3470-3530</p>
+              <h2>Contacto: +54 9 12 3470-3530</h2>
+              <p>SIGUENOS</p>
               <div class="red-social">
                   <a href="#" class="fa fa-facebook"></a>
                   <a href="#" class="fa fa-instagram"></a>
@@ -208,6 +236,9 @@
         <!-- Script Bootstrap-->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+<script>
+  AOS.init();
+</script>
 </body> 
 </html>
 

@@ -1,0 +1,95 @@
+
+// Estilos para imágenes generales
+.img {
+  width: 40%;
+  display: block;
+}
+
+// Estilos para imágenes específicas de productos
+img.img-productos {
+  width: 160%;
+  display: block;
+  height: 130%;
+
+  // Estilo en hover
+  .card:hover & {
+    transform: scale(1.2);
+  }
+}
+
+// Estilos para el título principal
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+// Estilos para el contenedor principal
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+// Estilos para el encabezado de la tarjeta
+.card-header {
+  height: 200px;
+  width: 100%;
+  object-position: 50% 50%;
+  object-fit: cover;
+  overflow: hidden;
+
+  // Estilos para la imagen dentro del encabezado
+  img {
+    border-radius: 10px 10px 0 0;
+    transition: all 0.5s;
+  }
+}
+
+// Estilos para el título de la tarjeta
+.card-title {
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+// Estilos para el precio en la tarjeta
+.card-precio {
+  flex-grow: 0;
+  font-weight: 900;
+  color: #ffffff;
+}
+
+// Estilos para el descuento en la tarjeta
+.card-descuento {
+  font-size: 18px;
+  font-weight: 300;
+  color: crimson;
+  flex-grow: 0;
+}
+
+// Estilos para el cuerpo de la tarjeta
+.card-body {
+  border-radius: 0 0 10px 10px;
+  background-color: #171205;
+  padding: 20px 15px;
+  text-align: justify;
+  border: 1px solid #ccc;
+
+  // Flexbox para disposición en columna
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+// Estilos para el botón
+.btn {
+  display: block;
+  background-color: #ffc107;
+  padding: 5px;
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  margin-top: 10px;
+}

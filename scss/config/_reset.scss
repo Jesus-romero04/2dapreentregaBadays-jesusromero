@@ -1,0 +1,31 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $font-open-sans, $font-open-serif;
+  }
+
+  /* Body contacto */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  /* icon.cart*/
+* {
+    &::after,
+    &::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  }

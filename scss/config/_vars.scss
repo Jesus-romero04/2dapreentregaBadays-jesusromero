@@ -7,6 +7,14 @@ $link-hover-color: aqua;
 $text-color-white: #fff;
 $text-color-light: #efefef;
 $highlight-color: #ffda08;
+:root {
+    --dark-color: #000000;
+    --dark-solid: #000000;
+    --yellow-light: #f8d384;
+    --yellow-solid: #e0ba3b;
+    --gradient-color: linear-gradient(to right, var(--yellow-solid), var(--yellow-light));
+    --gradient-color-alt: linear-gradient(to right, var(--yellow-light), var(--yellow-solid));
+  }
 
 //variables fonts>>>>>
 $font-nunito: "Nunito Sans";
