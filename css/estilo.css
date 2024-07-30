@@ -485,7 +485,7 @@ section {
 
 .sobre-nosotros {
   text-align: center;
-  background-image: url(/assets/papel-fondo.jpg);
+  background-image: url(../assets/papel-fondo.png);
   color: #343a40;
   font-size: 25px;
   background-size: cover;
