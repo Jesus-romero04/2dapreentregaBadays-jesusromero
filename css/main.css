@@ -528,6 +528,18 @@ a.sobre-nosotross {
   color: #ffc107;
 }
 
+h2.contacto-num {
+  font-size: 5em;
+  max-width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background-color: #000000;
+  padding: 10px;
+  border: 2px solid #ddd;
+  display: block;
+  text-align: center;
+}
+
 /*:::::Pie de Pagina*/
 .pie-pagina {
   width: 100%;
@@ -553,7 +565,7 @@ a.sobre-nosotross {
   width: 250px;
 }
 .pie-pagina .grupo-1 .box h2 {
-  color: #fff;
+  color: #ffc107;
   margin-bottom: 25px;
   font-size: 20px;
 }
