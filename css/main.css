@@ -184,6 +184,10 @@ img {
   display: none;
 }
 
+.productos-th {
+  overflow: hidden;
+}
+
 .img {
   width: 40%;
   display: block;
